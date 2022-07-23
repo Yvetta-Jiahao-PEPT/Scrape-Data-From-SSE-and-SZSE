@@ -5,7 +5,7 @@
 
 Create the environment using
 ```bash
-  conda env create -f environments.yml
+  conda env create -f environment.yml
 ```
 Activate the environment 
 ```bash
