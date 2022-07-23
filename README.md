@@ -31,5 +31,7 @@ In my computer, these are:
 ```
 
 ## Authors
+```bash
 - Yi-Yu Lin
 - Jiahao Zhang
+```
