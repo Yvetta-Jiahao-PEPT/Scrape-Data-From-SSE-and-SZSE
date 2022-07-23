@@ -1,4 +1,4 @@
-# 🔥📈🔥 Scratch Data From SSE and SZSE 🔥📈🔥
+# 🔥📈🔥 Scrape Data From SSE and SZSE 🔥📈🔥
 
 
 ## Installation Guide 🏗️
