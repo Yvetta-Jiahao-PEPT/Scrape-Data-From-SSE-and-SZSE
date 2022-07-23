@@ -32,7 +32,7 @@ In my computer, these are:
 Here, 5 means we scrath data every 5 mins. 
 
 
-Run code below in termional to stop this task:
+Run code below in terminal to stop this task:
 ```bash
 crontab -r
 ```
