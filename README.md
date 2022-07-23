@@ -13,8 +13,9 @@ Activate the environment
 ```
 
 Or:
-
+```bash
 pip install requirements
+```
 
 ## Usage/Examples 🧙
 In terminal, we type   **crontab -e**   and copy code below in it (don't forget to replace **absolute_path** in the code below and in **Shanghai.py** and **Shenzhen.py**):
