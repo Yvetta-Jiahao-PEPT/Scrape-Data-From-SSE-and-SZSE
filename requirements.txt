@@ -1,0 +1,15 @@
+numpy>1.16
+scipy
+matplotlib
+pytest
+setuptools>=26
+autopep8
+pandas
+scikit-learn
+seaborn
+jupyter
+jupyterlab
+pytest
+pytz
+bs4
+datetime
