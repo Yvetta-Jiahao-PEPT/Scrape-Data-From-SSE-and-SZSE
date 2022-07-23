@@ -1,4 +1,3 @@
-from requests.utils import default_headers
 def get_url_data(page_num, date):
     url = 'http://query.sse.com.cn/commonQuery.do?jsonCallBack=jsonpCallback97417902&isPagination=true&pageHelp.pageSize=25&pageHelp.cacheSize=1&type=inParams&sqlId=COMMON_PL_SSGSXX_ZXGG_L&START_DATE=' + str(date) + '&END_DATE=' + str(date) +'&SECURITY_CODE=&TITLE=&BULLETIN_TYPE=&pageHelp.pageNo=' + str(page_num)  + '&pageHelp.beginPage=' + str(page_num) + '&pageHelp.endPage=' + str(page_num) + '&_=1631613647901'
     headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36', 
@@ -48,6 +47,7 @@ if __name__ == "__main__":
   import os.path
   from bs4 import BeautifulSoup
   from datetime import datetime
+  from requests.utils import default_headers
 
   tz = pytz.timezone('Asia/Shanghai') #get current time
   Beijing_now = datetime.now(tz)
