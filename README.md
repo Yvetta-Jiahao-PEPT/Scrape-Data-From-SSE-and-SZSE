@@ -1,4 +1,4 @@
-# 🔥🦀🔥 Scratch Data From SSE and SZSE 🔥🦀🔥
+# 🔥📈🔥 Scratch Data From SSE and SZSE 🔥📈🔥
 
 
 ## Installation Guide 🏗️
@@ -29,6 +29,7 @@ In my computer, these are:
 */5 * * * * python3 /Users/jiahaozhang/Desktop/test_bash/Shanghai.py
 */5 * * * * python3 /Users/jiahaozhang/Desktop/test_bash/Shenzhen.py
 ```
+Here, 5 means we scrath data every 5 mins. 
 
 ## Authors
 ```bash
