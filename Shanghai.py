@@ -52,7 +52,7 @@ if __name__ == "__main__":
   tz = pytz.timezone('Asia/Shanghai') #get current time
   Beijing_now = datetime.now(tz)
   date = str(Beijing_now).split()[0]
-  date = '2022-5-11'
+#   date = '2022-5-11'
 
   # directory_shanghai = './上交所/' # absolute path (where we want to store data)
   directory_shanghai = '/Users/jiahaozhang/Desktop/上交所/' # absolute path (where we want to store data)
